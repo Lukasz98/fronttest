@@ -10,7 +10,7 @@ import 'rxjs/Rx';
 
 import {IOption} from 'ng-select';
 //import {SelectOptionService} from '../../shared/elements/select-option.service';
-import {SelectCityService} from '../../_services/city_search/select-city.service';
+import {SelectCityService} from '@app/_services/city_search/select-city.service';
 
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/debounceTime';

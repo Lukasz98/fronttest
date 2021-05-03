@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 //import { CustomValidators } from 'ngx-custom-validators';
-//import { TestModel } from '../../models/testmodel';
+//import { TestModel } from '@app../../models/testmodel';
 import { Observable } from "rxjs/Observable";
 import { HttpClient } from "@angular/common/http";
 import * as _ from 'lodash';
@@ -9,7 +9,7 @@ import * as _ from 'lodash';
 import 'rxjs/Rx';
 
 import {IOption} from 'ng-select';
-import {SelectCityService} from '../../_services/city_search/select-city.service';
+import {SelectCityService} from '@app/_services/city_search/select-city.service';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
