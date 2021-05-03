@@ -36,7 +36,6 @@ jobs:
       with:
         app-name: wymianaksiazek
         slot-name: Production
-        publish-profile: $
-        #publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D551E4E019D24412B71FE0DD38CF4880 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D551E4E019D24412B71FE0DD38CF4880 }}
         package: ./dist/mega-able-hztl
 
